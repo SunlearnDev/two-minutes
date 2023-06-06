@@ -1,5 +1,6 @@
-var minuterlabel = document.getElementById('minuter');
+var minuterlabel = document.getElementById('minutes');
 var secondslabel = document.getElementById('seconds');
+var hourslabel = document.getElementById('hours');
 var totalSeconds =0;
         setInterval(setTime,1000);
         function setTime() {
